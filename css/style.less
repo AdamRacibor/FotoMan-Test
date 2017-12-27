@@ -1,0 +1,187 @@
+.navbar-brand {
+	font-family: 'Amatic SC', cursive;
+	font-size: 3rem;
+	color: #000000;
+}
+
+.center-text {
+	top: 45%;
+	transform: translateY(-25%);
+}
+
+.carousel-caption {
+	p {
+		position: relative;
+		bottom: 15px;
+		font-size: 27px;
+	}
+}
+
+.my-skills {
+	margin-top: 15px;
+	.my-skills-item {
+		margin: 15px 0;
+	}
+}
+
+.portfolio {
+	margin-top: 35px;
+	color: #FFFFFF;
+	.portfolio-tile {
+		height: 350px;
+		padding: 15px;
+		.motto {
+			color: #000000;
+			text-align: center;
+			font-size: 70px;
+			font-family: 'Kaushan Script', cursive;
+		}
+	}
+	.portfolio-link {
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+		width: 200px;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #000000;
+		@media screen and (max-width: 991px) {
+			height: 40px;
+		}
+	}
+	.photos {
+		background: url(../img/photos-background.png) center center no-repeat;
+	}
+	.movies {
+		background: url(../img/movies-background.png) center center no-repeat;
+	}
+	.graphics {
+		background: url(../img/graphics-background.png) center center no-repeat;
+	}
+}
+
+.about-me {
+	height: 420px;
+	background: url('../img/about-me-background-photo.png') center center no-repeat;
+	h2 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 16px;
+	}
+}
+
+.info {
+	margin-top: 50px;
+	.info-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 15px;
+		width: 200px;
+		height: 40px;
+		color: #FFFFFF;
+		background-color: #000000;
+		text-decoration: none;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+	}
+	.info-link:hover {
+		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	}
+}
+
+.social-links {
+	margin-top: 40px;
+	.social-icon {
+		padding: 4%;
+	}
+}
+
+.footer {
+	margin: 20px 0;
+	font-size: 18px;
+}
+
+@media screen and (min-width: 767px) {
+	.portfolio-tile {
+		margin: 20px 0;
+	}
+	.social-links {
+		margin: 5px;
+		.social-icon {
+			padding: 30px;
+		}
+	}
+}
+
+@media screen and (min-width: 991px) {
+	.nav {
+		margin: 15px 0;
+		padding-right: 30px;
+		padding-left: 30px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		.nav-item:nth-child(3) {
+			.nav-link {
+				width: 120px;
+				height: 40px;
+				background-color: #000000;
+				color: #FFFFFF;
+				text-align: center;
+				border-radius: 0;
+				margin-left: 10px;
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+				transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+			}
+			.nav-link:hover {
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+			}
+		}
+	}
+	
+	.center-text {
+		top: 50%;
+		transform: translateY(-25%);
+	}
+	
+	.my-skills {
+		margin-top: 25px;
+		.my-skills-item {
+			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+		}
+		h2 {
+			font-size: 22px;
+		}
+		p {
+			font-size: 13px;
+		}
+	}
+	.portfolio {
+		h3 {
+			font-size: 25px;
+		}
+	}
+	.portfolio-link {
+		opacity: 0;
+		position: relative;
+		display: flex;
+		align-items: center;
+		padding: 0 10px;
+		width: 200px;
+		height: 0px;
+		color: #FFFFFF;
+		text-decoration: none;
+		background-color: #000000;
+	}
+	.portfolio-tile:hover .portfolio-link {
+		opacity: 1;
+		height: 40px;
+		transition: opacity 0.5s ease;
+	}
+	.social-links {
+		margin-top: 40px;
+		.social-icon {
+			padding: 20px;
+		}
+	}
+}
