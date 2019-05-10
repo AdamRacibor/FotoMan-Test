@@ -7,4 +7,4 @@ Przykładowa wizytówka na, której uczyłem się biblioteki bootstrap.
  - SASS
  - Bootstrap
  
- LIVE: [https://danroxx.github.io/FotoMan-Test/](https://danroxx.github.io/FotoMan-Test/)
+ LIVE: [https://adamracibor.github.io/FotoMan-Test/](https://adamracibor.github.io/FotoMan-Test/)
