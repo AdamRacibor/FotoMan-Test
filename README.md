@@ -14,7 +14,7 @@ Przykładowa wizytówka na, której uczyłem się biblioteki bootstrap.
  # FotoMan
 It's a simple website,which helped me learn Bootstrap
 
-## Technologie z których korzystałem:
+## Technologies:
 
  - HTML 5 (BEM methodology)
  - SASS
